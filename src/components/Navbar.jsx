@@ -17,7 +17,6 @@ function Navbar({ title }) {
             <Link to="/" className="btn btn-ghost btn-sm rounded-btn">
               HOME
             </Link>
-
             <Link to="/about" className="btn btn-ghost btn-sm rounded-btn">
               ABOUT
             </Link>
