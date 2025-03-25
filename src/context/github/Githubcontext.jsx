@@ -11,7 +11,7 @@ export const GithubProvider = ({ children }) => {
     loading: false,
   };
 
-  const [state, dispatch] = useReducer(githubReducerithubReducer, initialState);
+  const [state, dispatch] = useReducer(githubReducer, initialState);
 
   return (
     <GithubContext.Provider
