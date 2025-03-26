@@ -1,4 +1,4 @@
-const GithubReducer = (state, action) => {
+const githubReducer = (state, action) => {
   switch (action.type) {
     case 'GET_USERS':
       return {
@@ -29,4 +29,4 @@ const GithubReducer = (state, action) => {
   }
 };
 
-export default GithubReducer;
+export default githubReducer;

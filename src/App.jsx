@@ -4,9 +4,8 @@ import Alert from './components/layouts/Alert';
 import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
-import { GithubProvider } from './context/github/GithubContext.jsx';
+import { GithubProvider } from './context/github/GithubContext';
 import { AlertProvider } from './context/alert/AlertContext';
-import GithubContext from './context/github/GithubContext';
 import User from './pages/User';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <GithubProvider>
       <AlertProvider>
         <Router>
-          <div className="flex-col justify-between ">
+          <div className="flex-col justify-betweenv  ">
             <Navbar title="Github Finder" />
             <Alert />
             <main className="container  mx-auto px-3 pb-12 ">
