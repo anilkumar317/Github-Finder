@@ -4,7 +4,7 @@ import Alert from './components/layouts/Alert';
 import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
-import { GithubProvider } from './context/github/GithubContext.jsx';
+import { GithubProvider } from './context/github/GithubContext';
 import { AlertProvider } from './context/alert/AlertContext';
 import User from './pages/User';
 
