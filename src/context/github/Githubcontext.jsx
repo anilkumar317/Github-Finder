@@ -14,14 +14,14 @@ export const GithubProvider = ({ children }) => {
   const [state, dispatch] = useReducer(githubReducer, initialState);
 
   return (
-    <GithubContext
+    <GithubContext.Provider
       value={{
         ...state,
         dispatch,
       }}
     >
       {children}
-    </GithubContext>
+    </GithubContext.Provider>
   );
 };
 
